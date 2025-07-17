@@ -1,0 +1,119 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        input,select,button{
+            margin: 10px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Caluculator Program</h2>
+    <input type="number" placeholder="Enter the first value" id="num1">
+    <input type="number" placeholder="Enter the second value" id="num2">
+    <select id="operation">]
+        <option value="add">add</option>
+        <option value="multiplication">multiplication</option> 
+        <option value="subtraction">subtraction</option>
+        <option value="division">division</option>
+   </select>
+   <BUtton onclick="calculate()">calculate</BUtton>
+   <div id="result">Result:</div>
+   <script>
+    function calculate(){
+        let num1=parseInt(document.getElementById("num1").value);
+        let num2=parseInt(document.getElementById("num2").value);
+        let operation=document.getElementById("operation").value;
+        let result;
+        if(isNaN(num1)||isNaN(num2)){
+            result="check your entered input";
+        }
+        else{
+            switch(operation){
+                case"add":
+                    result=num1+num2;
+                    break;
+                    
+            }
+        }
+            document.getElementById("result").innerText=result;
+        
+        
+    }
+   </script>
+</body>
+</html>
+Harish Maheshwaran <24bct122@kgcas.com>
+Wed, Jul 16, 10:43 AM (1 day ago)
+to Gobika
+
+Why is this message in spam? You reported this message as spam from your inbox.
+Report not spam
+
+
+---------- Forwarded message ---------
+From: Sai Prasath <saiprasath309@gmail.com>
+Date: Wed, Jul 16, 2025 at 10:42 AM
+Subject:
+To: 24bct122@kgcas.com <24bct122@kgcas.com>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        input,select,button{
+            margin: 10px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Caluculator Program</h2>
+    <input type="number" placeholder="Enter the first value" id="num1">
+    <input type="number" placeholder="Enter the second value" id="num2">
+    <select id="operation">]
+        <option value="add">add</option>
+        <option value="multiplication">multiplication</option> 
+        <option value="subtraction">subtraction</option>
+        <option value="division">division</option>
+   </select>
+   <BUtton onclick="calculate()">calculate</BUtton>
+   <div id="result">Result:</div>
+   <script>
+    function calculate(){
+        let num1=parseInt(document.getElementById("num1").value);
+        let num2=parseInt(document.getElementById("num2").value);
+        let operation=document.getElementById("operation").value;
+        let result;
+        if(isNaN(num1)||isNaN(num2)){
+            result="check your entered input";
+        }
+        else{
+            switch(operation){
+                case"add":
+                    result=num1+num2;
+                    break;
+                    
+            }
+        }
+            document.getElementById("result").innerText=result;
+        
+        
+    }
+   </script>
+</body>
+</html>
