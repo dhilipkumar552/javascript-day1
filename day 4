@@ -1,0 +1,43 @@
+/ let number=[1,2,"three",true];
+// let names=new Array("john","james");
+// console.log(number[2]);
+// console.log(names.length);
+// let result=number.filter(number=>number[1]);
+// console.log(result);
+// let number=[1,2,3,4,5];
+// number.slice(1,3);
+// console.log(result);
+// let number=[1,2,3,4,5];
+// number.splice(1,1,"hai");
+// console.log(number);
+//  let details={
+//     name:"js",
+//     totalmark:"90",
+//     subject:{
+//         dbms:"90",
+//         java:"99"
+//     },
+//     avg:function(){
+//         let sum=this.subject.dbms+this.subject.java;
+//         return sum;
+//     }
+// }
+// console.log(details.totalmark)
+// console.log(details["name"]);
+// console.log(details.subject.dbms);
+// console.log(details.subject["java"]);
+// console.log(details.avg());
+
+const person={
+    name:"Thala",
+    age:21,
+    city:"thailand"
+};
+const{name,age,city}=person;
+console.log(name);
+console.log(age);
+console.log(city);
+
+const person=["john",22"softwaredeveloper"];
+const[name,age,designation]=person;
+console.log(name+" "+age+" "+designation);
