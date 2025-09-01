@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, 
+    <title>Document</title>
+</head>
+<body>
+<input type="text" name="" id="inputvalue">
+<button onclick="toodelistconsist">addtask</button>
+<ul>list contant</ul>
+<script>
+    function toodelistconsist(){
+        let textvalue=document.getElementById("inputval
+        if(textvalue === " ")return
+        let li=document.createElement("li");
+        li.textContent=textvalue;
+        document.getElementById("listcontent").appendCh
+        let removebtn=document.createElement("button");
+        removebtn.textContent="remove";
+        removebtn.addEventListener("click"),function(e)
+            li.remove();
+        }
+                li.appendChild(removebtn);
+
+    }
+    
+
+    
+</script>
+    
+    
+</body>
+</html>
